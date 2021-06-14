@@ -20,6 +20,8 @@
     "browser-sync": "^2.26.14",
     "del": "^6.0.0",
     "editorconfig-checker": "^4.0.1",
+    "eslint": "^7.28.0",
+    "eslint-plugin-react": "^7.24.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-babel": "^8.0.0",
@@ -38,11 +40,8 @@
     "gulp-sourcemaps": "^3.0.0",
     "gulp-svg-sprite": "^1.5.0",
     "gulp-uglify-es": "^2.0.0",
+    "jshint": "^2.13.0",
     "node-w3c-validator": "^2.0.1",
-    "stylelint": "^13.9.0",
-    "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
-    "stylelint-order": "^4.1.0",
-    "stylelint-scss": "^3.18.0",
     "prettier": "^2.3.1"
   }
 }
