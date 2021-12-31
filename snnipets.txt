@@ -30,6 +30,14 @@
 		],
 		"description": "Добавляет базовый HTML код табов"
 	},
+	"Show More": {
+		"scope": "html",
+		"prefix": "showmore",
+		"body": [
+			"<div data-showmore class=\"${1:block}\">\n\t<div data-showmore-content class=\"${1:block}__content\"></div>\n\t<button data-showmore-button type=\"button\" class=\"${1:block}__more\"><span>Показать еще</span><span>Скыть</span></button>\n</div>"
+		],
+		"description": "Добавляет базовый HTML код блока 'показать еще'"
+	},
 	"Swiper": {
 		"scope": "html",
 		"prefix": "swiper",
@@ -162,7 +170,7 @@
 		"scope": "scss",
 		"prefix": "mbl",
 		"body": [
-			"&:not(:last-child) {margin-bottom: $1px;};"
+			"&:not(:last-child) {margin-bottom: $1px;}"
 		],
 		"description": "Добавляет нижний отступ исключая последний объект"
 	},
