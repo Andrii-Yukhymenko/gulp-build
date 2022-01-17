@@ -1,35 +1,16 @@
-// @import 'vars'; если используете scss-переменные - подключите сюда vars, но удалите root из _vars.scss
-
-@import 'vars';
+// базовые подключения
+@import "vars";
 @import "mixins";
+@import "fonts";
+@import "settings";
 
-
+// подключения компонентов страницы
 @import "./components/header";
-@import "./components/footer";
 
-
-
-body {
-  background-color: #000;
-  color: #fff;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.flex-block {
+// тестовые стили, удалите их
+.page__body {
   display: flex;
-  background: rgb(65, 144, 110);
-
-  &__item {}
-}
-
-
-
-.wrapper {
-  @include adaptiv-value("padding", 20, 500, 1);
-  width: 80%;
-  background: azure;
+  align-items: center;
+  justify-content: center;
+  height: var(--vh);
 }
